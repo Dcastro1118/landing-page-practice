@@ -1,0 +1,70 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(211, 211, 211);
+}
+nav {
+    background-color: rgb(160, 160, 160);
+    display: flex;
+    justify-content: space-between;
+}
+nav div ul{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+nav div ul li{
+    list-style: none;
+    display: inline-block;
+    height: 100%;
+}
+nav div ul li:hover{
+    background-color: rgb(112, 112, 112);
+}
+.menu.central ul li{
+    padding: 16px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+.fbimg {
+    padding: 8px;
+    width: 30px;
+}
+.instaimg{
+    width: 30px;
+    padding: 8px;
+}
+.ximg{
+    width: 30px;
+    padding: 8px;
+}
+.logoimg{
+    width: 100%;
+    height: 44px;
+    padding: 2px;
+}
+.banner{
+    position: absolute;
+}
+.banner h2{
+    margin: 15px;
+    position: relative;
+    color: white;
+    font-size: 50px;
+    top: 250px;
+
+}
+.banner h2:hover{
+    font-size: 56px;
+}
+.banner a{
+    text-decoration: none;
+}
+.banner.botas{
+    width: 100%vh;
+    height: 
+}
